@@ -1,0 +1,13 @@
+.form-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    .title{
+        color:#3190e6;
+    }
+    .des{
+        color: black;
+    }
+}

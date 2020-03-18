@@ -1,0 +1,32 @@
+.contacts-table-area{
+    max-height: 400px;
+    overflow: auto;
+}
+.contacts-table-loading-spider-view{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 100%;
+    background-color: white;
+    position: relative;
+    .arrow-down-icon{
+      font-size: 3rem;
+      color: #3190e6;
+      transition: all 0.3s ease;
+      animation: arrowAnimation2 1s;
+      position: absolute;
+      animation-iteration-count: infinite;
+      /* Safari 4.0 - 8.0 */
+     
+      &:hover{
+        cursor: pointer;
+        transform: scale(1.4);
+      }
+    }
+    
+    .contacts-info-show{
+      position: absolute;
+      right: 30px;
+    }
+ }

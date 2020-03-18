@@ -1,0 +1,134 @@
+
+  
+#external-events {
+  float: left;
+  // width: 140px;
+  padding: 20px;
+  background: white;
+  text-align: left;
+  .fc-event {
+    margin: 10px 0;
+    cursor: pointer;
+    color: white;
+    border: none !important;
+    background-color: white !important;
+    box-shadow: 0px 5px 5px gray;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin: 0px 2px;
+    padding: 0 !important;
+  }
+  .fc-event.event0{
+    width: 40px;
+    height: 40px;
+    background-color:rgb(98, 178, 247)  !important;
+  }
+  .fc-event.event1{
+    width: 40px;
+    height: 40px;
+    background-color: rgb(243, 86, 83)  !important;
+  }
+  .fc-event.event2{
+    width: 40px;
+    height: 40px;
+    background-color: rgb(255, 152, 0)  !important;
+  }
+  .fc-event.event3{
+    width: 40px;
+    height: 40px;
+    background-color: rgb(98, 243, 229)  !important;
+  }
+}
+.fc-event-container{
+  .fc-day-grid-event.fc-h-event{
+    padding: 0;
+    border: none;
+  }
+  .fc-content{
+     padding: 0;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     font-weight: 500;
+     span{
+       padding: 1px;
+     }
+  }
+  .fc-content.content0{
+    background-color:rgb(98, 178, 247);
+  }
+  .fc-content.content1{
+    background-color: rgb(243, 86, 83);
+  }
+  .fc-content.content2{
+    background-color: rgb(255, 152, 0);
+     }
+  .fc-content.content3{
+    background-color: rgb(98, 243, 229);
+  }
+}
+.fc-scroller.fc-day-grid-container{
+  height: auto !important;
+}
+.schedle-calendar{
+  padding: 20px;
+  box-shadow: 0px 10px 10px rgba(0,0,0,.1);
+  border-top: 3px solid #fac863;
+}
+.event-card{
+  width:100%;
+  margin-bottom: 10px;
+  .card-header{
+    color: white;
+    font-weight: 500;
+    padding: 3px 10px;
+  }
+}
+.event-card.event0{
+  border: 1px solid rgb(98, 178, 247);
+  h4{
+    color: rgb(98, 178, 247);
+  }
+  .card-header{
+    background-color: rgb(98, 178, 247);
+  }
+}
+.event-card.event1{
+  border: 1px solid rgb(243, 86, 83);
+  .card-header{
+    background-color: rgb(243, 86, 83);
+  }
+  h4{
+    color: rgb(243, 86, 83);
+  }
+}
+.event-card.event2{
+  border: 1px solid rgb(255, 152, 0);
+  h4{
+    color: rgb(255, 152, 0);
+  }
+  .card-header{
+    background-color: rgb(255, 152, 0);
+  }
+}
+.event-card.event3{
+  border: 1px solid rgb(98, 243, 229);
+  h4{
+    color: rgb(98, 243, 229);
+  }
+  .card-header{
+    background-color: rgb(98, 243, 229);
+  }
+}
+.drag-guide-image{
+  display: block;
+}
+@media only screen and (max-width: 768px) {
+  .drag-guide-image{
+    display: none;
+  }
+}

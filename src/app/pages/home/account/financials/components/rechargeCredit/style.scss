@@ -1,0 +1,62 @@
+.reCharge-form-wrapper{
+    background-color: white;
+    padding: 24px;
+    color: black;
+    min-height: 500px;
+    .payment-method-details-view{
+        .method-view{
+            .method-selector{
+                border: 1px solid gray;
+                border-radius: 4px;
+                padding: 10px;
+                display: flex;
+                margin: 10px 0px;
+                .check{
+
+                }
+                .info{
+                    flex: 1;
+                    color: black;
+                    .title{
+                        font-size: 1.3rem;
+                        font-weight: bold;
+                    }
+                    .details{
+                        font-size: 1rem;
+                    }
+                }
+            }
+            .method-selector.disable{
+                opacity: 0.3;
+                // cursor: not-allowed;
+            }
+            .method-selector.isSelected{
+                background-color: #3190e6;
+                .info{
+                    color: white;
+                }
+            }
+            .method-selector:hover{
+                border: 1px solid blue;
+            }
+        }
+        .details-view{
+            .details-section{
+                border-bottom: 1px dotted gray;
+                padding: 10px;
+                .details-info{
+                    display: flex;
+                    .title{
+                        flex: 1;
+                    }
+                    .info{
+                        color: blue;
+                    }
+                }
+            }
+            .details-section:last-child{
+                border-bottom: none;
+            }
+        }
+    }
+}

@@ -1,0 +1,17 @@
+.overview-hover{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .item{
+        margin: 0px 2px;
+        position: relative;
+        .smsCount{
+            position: absolute;
+            right: 0;
+            bottom: -10px;
+            font-size: 1rem;
+            font-weight: 500;
+            color: #3190e6;
+        }
+    }
+}

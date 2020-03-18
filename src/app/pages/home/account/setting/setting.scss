@@ -1,0 +1,109 @@
+
+.account-area{
+    display: flex;
+    height: 70vh;
+    .details-view{
+        display: flex;
+        justify-content: center;
+        box-shadow: 0px 10px 10px rgba(0,0,0,.1);
+        font-size: 18px;
+        padding: 5% 30px;
+        border-radius: 10px;
+        background-color: white;
+        
+        .details-wrapper{
+            .item{
+                padding: 5px 20px;
+                margin: 5px;
+                text-align: left;
+                color: black;
+                .label{
+                    display: block;
+                }
+                .icon-view{
+                    display: none;
+                }
+            }
+            .item:hover{
+                cursor: pointer;
+            }
+            .item.selected{
+                font-weight: bold;
+                border-left: 4px solid green;
+                background-color: white;
+            }
+        }
+       
+    }
+    .info-view{
+    background-color: white;
+        
+        padding: 5% 20px;
+        flex: 1;
+        display: flex;
+        justify-content: center;
+        box-shadow: 0px 10px 10px rgba(0,0,0,.1);
+        border-radius: 10px;
+        margin-left: 10px;
+        .info-view-wrapper{
+            width: 80%;
+        }
+    }
+}
+@media only screen and (max-width: 768px) {
+
+    .account-area{
+        display: flex;
+        height: 85vh;
+        .details-view{
+            display: flex;
+            justify-content: center;
+            box-shadow: 0px 10px 10px rgba(0,0,0,.05);
+            font-size: 1.1rem;
+            padding: 5% 10px;
+            border-radius: 0;
+            background-color: white;
+            
+            .details-wrapper{
+                .item{
+                    padding: 0;
+                    margin: 0;
+                    text-align: left;
+                    color: black;
+                    .label{
+                        display: none;
+                    }
+                    .icon-view{
+                        display: block;
+                        font-size: 3rem;
+                    }
+                }
+                .item:hover{
+                    cursor: pointer;
+                }
+                .item.selected{
+                    border-left:none;
+                    background-color: white;
+                    .icon-view{
+                        color: green;
+                    }
+                }
+            }
+           
+        }
+        .info-view{
+        background-color: white;
+            
+            padding: 5% 20px;
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            box-shadow: 0px 10px 10px rgba(0,0,0,.1);
+            border-radius: 0;
+            margin-left: 10px;
+            .info-view-wrapper{
+                width: 80%;
+            }
+        }
+    }
+}

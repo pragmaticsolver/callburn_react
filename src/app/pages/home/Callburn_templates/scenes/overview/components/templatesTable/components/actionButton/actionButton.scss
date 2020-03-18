@@ -1,0 +1,17 @@
+.action-button-area{
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    width: 35px;
+    height: 35px;
+    border: 1px solid gray;
+    margin: 0px 5px;
+    i{
+        font-size: 20px;
+    }
+}
+.action-button-area:hover{
+    box-shadow: 0px 10px 14px rgba(0,0,0,0.2);
+}

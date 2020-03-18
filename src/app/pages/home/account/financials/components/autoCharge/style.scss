@@ -1,0 +1,25 @@
+.autoCharge-form-wrapper{
+    background-color: white;
+    padding: 24px;
+    color: black;
+    min-height: 500px;
+    .info-section{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        .balance-letter{
+            color: #3190e6;
+        }
+        .retained-credit-letter{
+            color: #df635d;;
+        }
+    }
+    table{
+    }
+    h3{
+        padding: 20px;
+        text-align: center;
+        margin-top: 20px;
+    }
+}

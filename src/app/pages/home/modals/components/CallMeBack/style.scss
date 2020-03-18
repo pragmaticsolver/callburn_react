@@ -1,0 +1,87 @@
+.body-area{
+    display: flex;
+    flex-direction: column;
+    .intro-section{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .title{
+            flex: 0.4;
+            border-right: 1px solid gray;
+            font-size: 16px;
+            font-weight: bold;
+            padding: 10px;
+        }
+        .des{
+            flex: 0.6;
+            padding: 10px;
+        }
+        .create-confirm-voice-message{
+                padding: 15px;
+                box-shadow: 0px 0px 10px rgba(0,0,0,.1);
+                border-radius: 10px;
+                height: 100%;
+                
+                .upload-area{
+                    padding: 10px;
+                    border: 2px dashed green;
+                    border-radius: 10px;
+                    height: 200px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    .upload-wrapper{
+
+                    }
+                }
+        }
+    }
+    .main-section{
+        display: flex;
+        .intro{
+            flex: 1;
+        }
+        .digit-selector-section{
+
+        }
+        .create-confirm-vm-for-callmeback{
+            padding: 15px;
+            box-shadow: 0px 0px 10px rgba(0,0,0,.1);
+            border-radius: 10px;
+            height: auto;
+           .template-table{
+               .template_selected{
+                background-color: #3190e6;
+                td{
+                    color: white;
+                }  
+               }
+           }
+    }
+
+    }
+    .comfirm-section{
+        margin-top: 20px;
+        padding: 10px;
+        background-color: #f5a623;
+        color: white;
+    }
+    .comfirm-section.checked{
+        background-color: #7ed321;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .body-area{
+        .main-section{
+            display: block;
+            .intro{
+            }
+            .digit-selector-section{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+    
+        }
+    }
+}

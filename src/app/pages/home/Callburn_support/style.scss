@@ -1,0 +1,107 @@
+
+  
+#external-events {
+  float: left;
+  // width: 150px;
+  padding: 20px;
+  background: white;
+  text-align: left;
+  .fc-event {
+    margin: 10px 0;
+    cursor: pointer;
+    color: white;
+    border: none;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin: 0px 3px;
+  }
+  .fc-event.event0{
+    width: 50px;
+    height: 50px;
+    background-color:rgb(98, 178, 247);
+  }
+  .fc-event.event1{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(243, 86, 83);
+  }
+  .fc-event.event2{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(255, 152, 0);
+  }
+  .fc-event.event3{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(98, 243, 229);
+  }
+}
+.fc-event-container{
+  .fc-content{
+     padding: 0;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     font-weight: 500;
+  }
+  .fc-content.content0{
+    background-color:rgb(98, 178, 247)
+  }
+  .fc-content.content1{
+    background-color: rgb(243, 86, 83);
+  }
+  .fc-content.content2{
+    background-color: rgb(255, 152, 0);
+  }
+  .fc-content.content3{
+    background-color: rgb(98, 243, 229);
+  }
+}
+.event-card{
+  width:100%;
+  margin-bottom: 10px;
+  .card-header{
+    color: white;
+    font-weight: 500;
+  }
+}
+.event-card.event0{
+  border: 1px solid rgb(98, 178, 247);
+  h4{
+    color: rgb(98, 178, 247);
+  }
+  .card-header{
+    background-color: rgb(98, 178, 247);
+  }
+}
+.event-card.event1{
+  border: 1px solid rgb(243, 86, 83);
+  .card-header{
+    background-color: rgb(243, 86, 83);
+  }
+  h4{
+    color: rgb(243, 86, 83);
+  }
+}
+.event-card.event2{
+  border: 1px solid rgb(255, 152, 0);
+  h4{
+    color: rgb(255, 152, 0);
+  }
+  .card-header{
+    background-color: rgb(255, 152, 0);
+  }
+}
+.event-card.event3{
+  border: 1px solid rgb(98, 243, 229);
+  h4{
+    color: rgb(98, 243, 229);
+  }
+  .card-header{
+    background-color: rgb(98, 243, 229);
+  }
+}

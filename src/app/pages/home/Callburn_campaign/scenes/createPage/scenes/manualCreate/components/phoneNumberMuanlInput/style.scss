@@ -1,0 +1,25 @@
+.number-item{
+    display: inline-block;
+    padding: 5px;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    background-color: rgb(149, 226, 166);
+    color: black;
+    margin: 3px 3px;
+    .close-btn{
+        color: rgb(37, 35, 35);
+        margin-left: 10px;
+        padding: 4px;
+     
+        &:hover{
+            cursor: pointer;
+            font-weight: bold;
+        }
+    }
+}
+.number-item.unsupported{
+    color: #906969;
+    background-color: #d6c0c0;
+}

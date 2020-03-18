@@ -1,0 +1,40 @@
+
+    .campaignView{
+        margin-top: 50px;
+        .form-info{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            .title{
+                color:#3190e6;
+            }
+            .des{
+                color: black;
+            }
+        }
+        .filter-area{
+        
+        }
+        .messageTable-area{
+            margin-top: 20px;
+            flex:1;
+           
+        }
+    }
+ .create-campaign-btn{
+
+ }
+
+    @media only screen and (max-width: 768px) {
+        .campaignView{
+            margin-top: 10px;
+        }
+        .create-campaign-btn{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 5px;
+        }
+    }

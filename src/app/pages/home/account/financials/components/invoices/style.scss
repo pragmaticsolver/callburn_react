@@ -1,0 +1,40 @@
+.invoice-form-wrapper{
+    background-color: white;
+    padding: 24px;
+    color: black;
+    .info-section{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        .balance-letter{
+            color: #3190e6;
+        }
+        .retained-credit-letter{
+            color: #df635d;;
+        }
+    }
+    .billing-detail-section{
+        .billed{
+            color:  blue;
+        }
+        .billed:hover{
+            cursor: pointer;
+            text-decoration: underline;
+        }
+    }
+    table{
+    }
+    h3{
+        padding: 20px;
+        text-align: center;
+        margin-top: 20px;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .invoice-form-wrapper{
+        table{
+            padding: 0;
+        }
+    }
+}
