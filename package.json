@@ -111,7 +111,7 @@
     "socicon": "^3.0.5",
     "socket.io-client": "^2.3.0",
     "sweetalert2": "^9.1.5",
-    "validator": "^12.2.0"
+    "validator": "^13.7.0"
   },
   "devDependencies": {
     "copyfiles": "^2.1.1",
